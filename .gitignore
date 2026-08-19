@@ -1,0 +1,13 @@
+bin/
+obj/
+
+# Benchmark output and run logs — regenerated on every run, and logs echo blob URLs.
+*.xlsx
+*.log
+
+# Local secrets, if a UserSecretsId is ever set in the csproj.
+secrets.json
+
+.vs/
+.idea/
+*.user
